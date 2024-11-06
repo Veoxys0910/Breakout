@@ -225,7 +225,7 @@ namespace Breakout.Core
 
             string imageName;
 
-            int rows = p_level;
+            int rows = 5;
             int columns = p_resW / width;
 
             int hitPoints = 1;
