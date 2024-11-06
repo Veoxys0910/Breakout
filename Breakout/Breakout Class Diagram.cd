@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Breakout.Components.Collision.CollisionDetection" Collapsed="true">
+    <Position X="21" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAKAAAAAAAAAEAQAAAAAAAAAIBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\Collision\CollisionDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Breakout.Components.Collision.Hitbox" Collapsed="true">
+    <Position X="19.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAGEAAAAAAAQCAAAAAAAGAAAAA=</HashCode>
+      <FileName>Components\Collision\Hitbox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Breakout.Components.Entities.Actor" Collapsed="true">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAABAAAAEAEAwAQAAAAAAAAAACAAAAAECEAEAAA=</HashCode>
+      <FileName>Components\Entities\Actor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Breakout.Components.Entities.Ball" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAQAIBCgQAAUkCAAABAEAEECAJJgQSAAABBCEQAQREA=</HashCode>
+      <FileName>Components\Entities\Ball.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Breakout.Components.Entities.Brick" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAAIAAgAAAAgBAAABAEAABAAAAAQAAAIABAAQACAAA=</HashCode>
+      <FileName>Components\Entities\Brick.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Breakout.Components.Entities.Immovable" Collapsed="true">
+    <Position X="21" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAEAQAQAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Components\Entities\Immovable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Breakout.Components.Entities.Paddle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SIAAIAAgAAAAkAAAAAAEAAAAAAIAQCABAABCGUAAAAA=</HashCode>
+      <FileName>Components\Entities\Paddle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Breakout.Components.Motion.Movement" Collapsed="true">
+    <Position X="15.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAABhAAAAEBAAAAgAAAAAAAAQAAAJAQFACEAAAAA=</HashCode>
+      <FileName>Components\Motion\Movement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Breakout.Components.Sprite.SpriteManager" Collapsed="true">
+    <Position X="22.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\Sprite\SpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Breakout.Core.GameManager" Collapsed="true">
+    <Position X="22.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAACCAAEAAAHAAGAAAAAABKEAEAIAAKAAQAAQAAg=</HashCode>
+      <FileName>Core\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Breakout.Core.GameWindow" Collapsed="true">
+    <Position X="15.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgARkAKEAABEEAADAQAkDAkAAAAIEgEEAAABgAAA=</HashCode>
+      <FileName>Core\GameWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Breakout.Core.GameWorld" Collapsed="true">
+    <Position X="17.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCgAAKABQACBgBAQACAIEAkAEAAAIGAAACJAAAiAEDA=</HashCode>
+      <FileName>Core\GameWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Breakout.Core.Program" Collapsed="true">
+    <Position X="21" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Core\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Breakout.Core.Input.InputManager" Collapsed="true">
+    <Position X="22.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAQAAAAQBQAAAiBAAEoAAAIAAIAAQQEAAAAAAAAA=</HashCode>
+      <FileName>Core\Input\InputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Breakout.Core.Physics.PhysicsManager" Collapsed="true">
+    <Position X="19.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACABAARAAAIAEAAAAAAAQAQAAAAAAAAgQAAAAAAA=</HashCode>
+      <FileName>Core\Physics\PhysicsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Breakout.Core.Timing.TimerManager" Collapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAgAAAAQAAAAAAACEAAAAFAQAAA=</HashCode>
+      <FileName>Core\Timing\TimerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Breakout.Core.Update.UpdateManager" Collapsed="true">
+    <Position X="17.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAACAAAAAAAAAAAAAAAABAAAAQAAAAAAAAAAAwAAA=</HashCode>
+      <FileName>Core\Update\UpdateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Breakout.Components.Entities.PowerUp" Collapsed="true">
+    <Position X="19.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SABAIACgAAAAkAAAQBAEAAAIABAAQCCAAAHCAUAHAAA=</HashCode>
+      <FileName>Components\Entities\PowerUp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="Breakout.Components.Collision.Rectangle" Collapsed="true">
+    <Position X="17.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Components\Collision\Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Breakout.Components.Motion.Vector2" Collapsed="true">
+    <Position X="19.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Components\Motion\Vector2.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Breakout.Core.Managers" Collapsed="true">
+    <Position X="15.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAgAAAEACAAAAA=</HashCode>
+      <FileName>Core\Managers.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Breakout.Interfaces.IRenderObject" Collapsed="true">
+    <Position X="15.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRenderObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Breakout.Interfaces.Physics.IActorCollidable" Collapsed="true">
+    <Position X="8.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAgAAAAAAEAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Interfaces\Physics\IActorCollidable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Breakout.Interfaces.Physics.IHorizontalBoundCollidable" Collapsed="true">
+    <Position X="11" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Interfaces\Physics\IHorizontalBoundCollidable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Breakout.Interfaces.Physics.IMovable" Collapsed="true">
+    <Position X="13.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAACAAAABAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Physics\IMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Breakout.Interfaces.Physics.IPhysicsObject" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Physics\IPhysicsObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Breakout.Interfaces.Physics.IVerticalBoundCollidable" Collapsed="true">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Physics\IVerticalBoundCollidable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Breakout.Components.Entities.Power" Collapsed="true">
+    <Position X="21" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\Entities\PowerUp.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
